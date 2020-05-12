@@ -1,0 +1,33 @@
+.container {
+  text-align: center;
+  margin: 5rem auto;
+  max-width: 800px;
+}
+
+.digits-container {
+  display: flex;
+  justify-content: center;
+}
+
+.digit {
+  height: 5rem;
+}
+
+.segment {
+  fill: #EEE;
+}
+
+.segment.active {
+  fill: red;
+}
+
+pre {
+  margin-top: 5rem;
+  display: inline-block;
+  text-align: left;
+}
+
+.all-variations {
+  margin-top: 5rem;
+  width: 50%;
+}
